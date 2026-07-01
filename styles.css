@@ -319,6 +319,7 @@ img {
 .image {
     display: flex;
     flex-wrap: wrap;
+    border: 2px solid red;
     justify-content: center;
     backdrop-filter: blur(5px);
     background-color: rgba(127, 255, 212, 0.406);

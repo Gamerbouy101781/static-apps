@@ -324,6 +324,7 @@ img {
     backdrop-filter: blur(5px);
     background-color: rgba(127, 255, 212, 0.406);
     width: 90%;
+    overflow: scroll;
     max-width: 35rem;
     box-shadow: 0 0 12px 5px;
     border-radius: 0.5rem;

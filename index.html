@@ -73,11 +73,13 @@
   <script>
     function showSidebar() {
       event.preventDefault()
+      navigator.vibrate(200)
       const sideBar = document.querySelector('.sideBar')
       sideBar.style.display = 'flex'
     }
     function hideSidebar() {
       event.preventDefault()
+      navigator.vibrate(200)
       const sideBar = document.querySelector('.sideBar')
       sideBar.style.display = 'none'
       

@@ -490,6 +490,9 @@ footer h4 {
 }
 
 @media(max-width:506px) {
+    .image {
+        margin: 14rem 0 0 0;
+    }
     .hideontablet {
         display: flex;
     }
@@ -500,9 +503,6 @@ footer h4 {
 }
 
 @media(max-width:400px) {
-    .image-container {
-        border-radius: none;
-    }
     .image {
         width: 100%;
         border-radius: 0;

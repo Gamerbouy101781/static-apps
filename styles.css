@@ -76,6 +76,8 @@ nav a {
     z-index: 500;
     display: none;
     flex-direction: column;
+    font-size: large;
+
     justify-content: flex-start;
     margin-top: -1.1rem;
     margin-left: 8.5rem;
@@ -94,11 +96,10 @@ nav a {
     /* align-items: ; */
 }
 
-.side a {
+.sideBar a {
     width: 100%;
     font-weight: bold;
-    font-size: large;
-    border: 1px solid black;
+    font-size: medium;
 }
 
 .side a:hover {

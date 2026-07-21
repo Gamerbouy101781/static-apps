@@ -78,7 +78,6 @@ nav a {
     display: none;
     flex-direction: column;
     font-size: large;
-
     justify-content: flex-start;
     margin-top: -1.1rem;
     margin-left: 8.5rem;
@@ -100,7 +99,7 @@ nav a {
 .sideBar a {
     width: 100%;
     font-weight: bold;
-    font-size: medium;
+    font-size: large;
 }
 
 .side a:hover {

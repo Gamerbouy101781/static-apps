@@ -211,6 +211,7 @@ nav a {
     border: 0.9px solid yellow;
     border-radius: 0.5rem;
     height: 1.1vh;
+    overflow: hidden;
     margin: 0 0 0.8rem 0;
 }
 
@@ -229,6 +230,7 @@ nav a {
     border: 0.9px solid yellow;
     border-radius: 0.5rem;
     height: 1.1vh;
+    overflow: hidden;
     margin: 0 0 0.8rem 0;
 }
 
@@ -248,6 +250,7 @@ nav a {
     border: 0.9px solid yellow;
     border-radius: 0.5rem;
     height: 1.1vh;
+    overflow: hidden;
     margin: 0 0 0.8rem 0;
 }
 
@@ -266,6 +269,7 @@ nav a {
     border: 0.9px solid yellow;
     border-radius: 0.5rem;
     height: 1.1vh;
+    overflow: hidden;
     margin: 0 0 0.8rem 0;
 }
 
@@ -284,6 +288,7 @@ nav a {
     border: 0.9px solid yellow;
     border-radius: 0.5rem;
     height: 1.1vh;
+    overflow: hidden;
 }
 
 .slide-fill6 {

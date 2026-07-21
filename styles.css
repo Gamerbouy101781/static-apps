@@ -160,6 +160,9 @@ footer h4 {
 }
 
 @media(max-width:400px) {
+    .form {
+        width: 100%;
+    }
     .image {
         width: 100%;
         border-radius: 0;

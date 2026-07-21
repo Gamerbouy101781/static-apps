@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -182,7 +181,7 @@ nav a {
     text-align: center;
 }
 
-.slide1 {
+.slide {
     flex-wrap: wrap;
     background-color: orange;
     box-shadow: 1px 1px 1px 1px rgb(0, 140, 255);
@@ -193,110 +192,14 @@ nav a {
     margin: 0 0 0.8rem 0;
 }
 
-.slide-fill1 {
+.slide-fill {
     flex-wrap: wrap;
     background-color: rgb(24, 221, 239);
     border-radius: 0.5rem;
     height: 1vh;
-    width: 80%;
     opacity: 0;
     animation: fill 5s alternate linear forwards;
     min-width: none;
-}
-
-.slide2 {
-    flex-wrap: wrap;
-    background-color: orange;
-    box-shadow: 1px 1px 1px 1px rgb(0, 140, 255);
-    border: 0.9px solid yellow;
-    border-radius: 0.5rem;
-    height: 1.1vh;
-    overflow: hidden;
-    margin: 0 0 0.8rem 0;
-}
-
-.slide-fill2 {
-    flex-wrap: wrap;
-    background-color: rgb(24, 221, 239);
-    border-radius: 0.5rem;
-    height: 1vh;
-    animation: fill 5s alternate linear forwards;
-}
-
-.slide3 {
-    flex-wrap: wrap;
-    background-color: orange;
-    box-shadow: 1px 1px 1px 1px rgb(0, 140, 255);
-    border: 0.9px solid yellow;
-    border-radius: 0.5rem;
-    height: 1.1vh;
-    overflow: hidden;
-    margin: 0 0 0.8rem 0;
-}
-
-.slide-fill3 {
-    flex-wrap: wrap;
-    background-color: rgb(24, 221, 239);
-    border-radius: 0.5rem;
-    height: 1vh;
-    width: 93%;
-    animation: fill 5s alternate linear forwards;
-}
-
-.slide4 {
-    flex-wrap: wrap;
-    background-color: orange;
-    box-shadow: 1px 1px 1px 1px rgb(0, 140, 255);
-    border: 0.9px solid yellow;
-    border-radius: 0.5rem;
-    height: 1.1vh;
-    overflow: hidden;
-    margin: 0 0 0.8rem 0;
-}
-
-.slide-fill4 {
-    flex-wrap: wrap;
-    background-color: rgb(24, 221, 239);
-    border-radius: 0.5rem;
-    height: 1vh;
-    animation: fill 5s alternate linear forwards;
-}
-
-.slide5 {
-    flex-wrap: wrap;
-    background-color: orange;
-    box-shadow: 1px 1px 1px 1px rgb(0, 140, 255);
-    border: 0.9px solid yellow;
-    border-radius: 0.5rem;
-    height: 1.1vh;
-    overflow: hidden;
-    margin: 0 0 0.8rem 0;
-}
-
-.slide-fill5 {
-    flex-wrap: wrap;
-    background-color: rgb(24, 221, 239);
-    border-radius: 0.5rem;
-    height: 1vh;
-    animation: fill 5s alternate linear forwards;
-}
-
-.slide6 {
-    flex-wrap: wrap;
-    background-color: orange;
-    box-shadow: 1px 1px 1px 1px rgb(0, 140, 255);
-    border: 0.9px solid yellow;
-    border-radius: 0.5rem;
-    height: 1.1vh;
-    overflow: hidden;
-}
-
-.slide-fill6 {
-    flex-wrap: wrap;
-    background-color: rgb(24, 221, 239);
-    border-radius: 0.5rem;
-    height: 1vh;
-    animation: fill 5s alternate linear forwards;
 }
 
 .about-container {

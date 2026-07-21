@@ -189,7 +189,7 @@ nav a {
     border: 0.9px solid yellow;
     border-radius: 0.5rem;
     height: 1.1vh;
-
+    overflow: hidden;
     margin: 0 0 0.8rem 0;
 }
 
@@ -199,6 +199,8 @@ nav a {
     border-radius: 0.5rem;
     height: 1vh;
     width: 80%;
+    opacity: 0;
+    animation: fill 5s alternate linear forwards;
     min-width: none;
 }
 
@@ -217,6 +219,7 @@ nav a {
     background-color: rgb(24, 221, 239);
     border-radius: 0.5rem;
     height: 1vh;
+    animation: fill 5s alternate linear forwards;
 }
 
 .slide3 {
@@ -235,6 +238,7 @@ nav a {
     border-radius: 0.5rem;
     height: 1vh;
     width: 93%;
+    animation: fill 5s alternate linear forwards;
 }
 
 .slide4 {
@@ -252,6 +256,7 @@ nav a {
     background-color: rgb(24, 221, 239);
     border-radius: 0.5rem;
     height: 1vh;
+    animation: fill 5s alternate linear forwards;
 }
 
 .slide5 {
@@ -269,6 +274,7 @@ nav a {
     background-color: rgb(24, 221, 239);
     border-radius: 0.5rem;
     height: 1vh;
+    animation: fill 5s alternate linear forwards;
 }
 
 .slide6 {
@@ -285,6 +291,7 @@ nav a {
     background-color: rgb(24, 221, 239);
     border-radius: 0.5rem;
     height: 1vh;
+    animation: fill 5s alternate linear forwards;
 }
 
 .about-container {
@@ -573,5 +580,16 @@ footer h4 {
     }
     to{
         opacity: 1;
+    }
+}
+
+@keyframes fill {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
     }
 }

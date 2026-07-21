@@ -18,7 +18,7 @@ function hideSidebar() {
     }
 
 
-function updateText() {
+function fillValue() {
     const fill1 = document.getElementById('fill1');
     const fill2 = document.getElementById('fill2');
     const fill3 = document.getElementById('fill3');
@@ -42,4 +42,4 @@ function updateText() {
 
 }
 
-updateText()
+fillValue()

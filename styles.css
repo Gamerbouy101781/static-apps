@@ -3,7 +3,6 @@
 * {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@
 }
 
 body {
-    background-image: url("avenger.jpeg");
+    background-image: url("images/avenger.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,7 +34,6 @@ nav {
     left: 1;
     z-index: 999;
     backdrop-filter: blur(3px);
-    color: ;
     box-shadow: 0px 0px 12px 5px;
     background-color: rgba(100, 148, 237, 0.749);
     border-radius: none ;
@@ -107,138 +105,6 @@ nav a {
     background-color: aqua;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: transparent ;
-    justify-content: center;
-    padding: 1rem 0.9rem;
-    gap: 1rem;
-    width: 100%;
-    margin: auto;
-}
-
-.container-v2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    box-shadow: 0px 0px 12px 5px;
-    background-color: rgba(100, 148, 237, 0.603);
-    border-radius: 0.5rem;
-    margin: auto 0 0 0;
-    width: 100%;
-    max-width: 50rem;
-    min-width: 15.625rem;
-    padding: 1rem;
-    gap: 1rem;
-    animation: moveUp 1s ease-in-out;
-}
-
-.Bio-container {
-    flex: auto;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    opacity: 0;
-    animation: fade 1.2s ease-in-out forwards;
-    animation-delay: .5s;
-    /* animation-delay: .5s; */
-}
-
-.Bio-container h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    margin: 0 0 1rem 0;
-    color: white;
-    text-align: center;
-}
-
-.Bio-container h4 {
-    color: white;
-    text-align: center;
-}
-
-
-.Powerstats-container {
-    flex: auto;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    opacity: 0;
-    animation: fade 1.2s ease-in-out forwards;
-    animation-delay: .5s;
-    /* animation-delay: .5s; */
-}
-
-.Powerstats-container h1 {
-    margin: 0 0 1rem 0;
-    color: aliceblue;
-    text-align: center;
-}
-
-.Powerstats-container h4 {
-    color: aliceblue;
-    text-align: center;
-}
-
-.slide {
-    flex-wrap: wrap;
-    background-color: orange;
-    box-shadow: 1px 1px 1px 1px rgb(0, 140, 255);
-    border: 0.9px solid yellow;
-    border-radius: 0.5rem;
-    height: 1.1vh;
-    overflow: hidden;
-    margin: 0 0 0.8rem 0;
-}
-
-.slide-fill {
-    flex-wrap: wrap;
-    background-color: rgb(24, 221, 239);
-    border-radius: 0.5rem;
-    height: 1vh;
-    opacity: 0;
-    animation: fill 5s alternate linear forwards;
-    min-width: none;
-}
-
-.about-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem 0 0 0;
-    background-color: transparent;
-    padding: 1rem;
-}
-
-.about {
-    box-shadow: 0px 0px 12px 5px;
-    background-color: rgba(100, 148, 237, 0.603);
-    border-radius: 0.5rem;
-    width: 100%;
-    max-width: 50rem;
-    padding: 1rem;
-    animation: moveUp 1s ease-in-out;
-}
-
-.about h1 {
-    margin: 0 0 1rem 0;
-    color: aliceblue;
-    text-align: center;
-    opacity: 0;
-    animation: fade 1.5s ease-in-out forwards;
-    animation-delay: .5s;
-}
-
-.about p {
-    color: aliceblue;
-    text-align: center;
-    opacity: 0;
-    animation: fade 1.5s ease-in-out forwards;
-    animation-delay: .5s;
-}
-
 img {
     width: 100%;
     max-width: 15rem;
@@ -249,132 +115,6 @@ img {
     border-radius: 0.5rem;
     margin: 0 1rem 2rem 0;
 }
-
-.image-container {
-    display: block;
-    width: 100%;
-    flex: 1 0 0;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 0 0;
-    background-image: url("avenger.jpeg");
-    background-size: cover;
-    background-position: center;
-    margin: -5rem 0 0 0;
-    border: none;
-}
-
-.image {
-    display: flex;
-    border: 2px solid red;
-    justify-content: center;
-    justify-self: center;
-    backdrop-filter: blur(5px);
-    background-color: rgba(127, 255, 212, 0.406);
-    width: 85%;
-    overflow: hidden;
-    max-width: 35rem;
-    padding: 1.5rem 0 0 0;
-    gap: 1rem;
-    box-shadow: 0 0 12px 5px;
-    border-radius: 0.5rem;
-    margin: 8rem 0 8rem 0;
-    animation: fade 3s ease-in-out;
-    
-}
-
-.image img{
-    width: 100%;
-    height: 100%;
-    border-radius: .8rem;
-    padding: 1rem;
-    gap: 2rem;
-    animation: moveLeft 7s linear infinite;
-    animation-direction: alternate;
-}
-
-.image img:hover{
-    transform: translateX(-100px);
-}
-
-.form-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem 0.9rem;
-    width: 100%;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color: white;
-    box-shadow: 0px 0px 12px 5px #333;
-    background-color: rgba(100, 148, 237, 0.603);
-    border-radius: 0.5rem;
-    margin: 0 0 0 0;
-    width: 90%;
-    max-width: 25rem;
-    padding: 1rem;
-    animation: fade 1.5s ease-in-out;
-}
-
-.form h1 {
-    flex-wrap: wrap;
-    text-align: center;
-    margin: 0 0 1rem 0;
-}
-
-input {
-    flex: auto;
-    margin: 0 0 1rem 0;
-    border: none;
-    color: white;
-    border-radius: 0.5rem;
-    background-color: rgba(100, 148, 237, 0.406);
-    width: 100%;
-    height: 6.4vh;
-    min-height: 3.5vh;
-    outline-color: none;
-    padding: 1rem;
-}
-
-input::placeholder {
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-
-textarea {
-    padding: 1rem 1rem;
-    width: 100%;
-    height: 20vh;
-    color: white;
-    background-color: rgba(100, 148, 237, 0.406);
-    margin: 0 0 1rem 0;
-    border-radius: 0.5rem;
-}
-
-textarea::placeholder {
-    padding: 2rem 0;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-
-button {
-    padding: 0.9rem 1rem;
-    box-shadow: 0px 0px 12px 5px #333;
-    background-color: rgba(100, 148, 237, 0.792);
-    border-radius: 0.5rem;
-    width: 100%;
-    color: white;
-    font-weight: bold;
-}
-
-
 
 footer {
     position: fixed;
